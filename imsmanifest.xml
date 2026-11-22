@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="com.commitsolution.ai-assured-rakyat.test" version="1.0"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG-AAR">
+    <organization identifier="ORG-AAR">
+      <title>AI Assured Rakyat (TEST VERSION - not for learners)</title>
+      <item identifier="ITEM-AAR" identifierref="RES-AAR" isvisible="true">
+        <title>AI Assured Rakyat</title>
+        <adlcp:masteryscore>80</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-AAR" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+      <file href="assets/av_aiman_heart_happy.png"/>
+      <file href="assets/av_aiman_phone_think.png"/>
+      <file href="assets/av_aiman_point_happy.png"/>
+      <file href="assets/av_daniel_chin_think.png"/>
+      <file href="assets/av_daniel_phone_happy.png"/>
+      <file href="assets/av_meiling_chin_think.png"/>
+      <file href="assets/av_meiling_phone_worried.png"/>
+      <file href="assets/av_nenek_heart_happy.png"/>
+      <file href="assets/av_nenek_phone_worried.png"/>
+      <file href="assets/av_raj_phone_think.png"/>
+      <file href="assets/av_raj_phone_worried.png"/>
+      <file href="assets/av_siti_heart_happy.png"/>
+      <file href="assets/av_siti_phone_think.png"/>
+      <file href="assets/av_siti_phone_worried.png"/>
+      <file href="assets/first_day_post.jpg"/>
+      <file href="assets/g_close.png"/>
+      <file href="assets/g_div_act.png"/>
+      <file href="assets/g_div_family.png"/>
+      <file href="assets/g_div_messages.png"/>
+      <file href="assets/g_div_phone.png"/>
+      <file href="assets/g_title.png"/>
+      <file href="assets/logo.png"/>
+      <file href="assets/poster1.jpg"/>
+      <file href="assets/poster2.jpg"/>
+      <file href="assets/poster3.jpg"/>
+      <file href="assets/poster4.jpg"/>
+      <file href="assets/poster5.jpg"/>
+      <file href="assets/poster6.jpg"/>
+      <file href="assets/video1.mp4"/>
+      <file href="assets/video2.mp4"/>
+      <file href="assets/video3.mp4"/>
+      <file href="assets/video4.mp4"/>
+      <file href="assets/video5.mp4"/>
+      <file href="assets/video6.mp4"/>
+      <file href="audio/feelings.mp3"/>
+      <file href="audio/m1b.mp3"/>
+      <file href="audio/m1c.mp3"/>
+      <file href="audio/m1i.mp3"/>
+      <file href="audio/m1q.mp3"/>
+      <file href="audio/m1t.mp3"/>
+      <file href="audio/m1v.mp3"/>
+      <file href="audio/m2a.mp3"/>
+      <file href="audio/m2c.mp3"/>
+      <file href="audio/m2d.mp3"/>
+      <file href="audio/m2e.mp3"/>
+      <file href="audio/m2f.mp3"/>
+      <file href="audio/m2p.mp3"/>
+      <file href="audio/m2q.mp3"/>
+      <file href="audio/m2s.mp3"/>
+      <file href="audio/m2v.mp3"/>
+      <file href="audio/m2v3.mp3"/>
+      <file href="audio/m3a.mp3"/>
+      <file href="audio/m3c.mp3"/>
+      <file href="audio/m3d.mp3"/>
+      <file href="audio/m3t.mp3"/>
+      <file href="audio/m3v.mp3"/>
+      <file href="audio/m4c.mp3"/>
+      <file href="audio/m4d.mp3"/>
+      <file href="audio/m4o.mp3"/>
+      <file href="audio/m4p.mp3"/>
+      <file href="audio/m4v.mp3"/>
+      <file href="audio/m5c.mp3"/>
+      <file href="audio/m5d.mp3"/>
+      <file href="audio/m5o.mp3"/>
+      <file href="audio/m5s.mp3"/>
+      <file href="audio/m5v.mp3"/>
+      <file href="audio/outcomes.mp3"/>
+      <file href="audio/route.mp3"/>
+      <file href="audio/sca.mp3"/>
+      <file href="audio/w1.mp3"/>
+      <file href="audio/w2.mp3"/>
+      <file href="audio/w3.mp3"/>
+      <file href="audio/warmup.mp3"/>
+      <file href="audio/welcome.mp3"/>
+      <file href="content.js"/>
+      <file href="fonts/Inter-Bold.otf"/>
+      <file href="fonts/Inter-ExtraBold.otf"/>
+      <file href="fonts/Inter-Medium.otf"/>
+      <file href="fonts/Inter-Regular.otf"/>
+      <file href="fonts/Inter-SemiBold.otf"/>
+    </resource>
+  </resources>
+</manifest>
