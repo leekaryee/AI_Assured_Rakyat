@@ -365,7 +365,7 @@ const R={
  hero(s){const resume=S.cur>0||Object.keys(S.visited).length>1;
   return `<div class="hero"><div class="tx"><p class="eyebrow">${esc(s.eyebrow)}</p><h1>${esc(s.title)}</h1><p class="lead">${esc(s.lead)}</p><p style="color:#D7ECF9;margin:0">${esc(s.sub)}</p>
   <div class="btnrow"><button class="btn or" data-act="next">Start the course</button><button class="btn light" data-act="tour">How it works</button></div>
-  <div class="credit"><span class="badge"><img src="assets/logo.png" alt=""></span><span><b style="color:#fff">COMMIT SOLUTIONS</b> · <a href="https://commitsolutions.com.my/" style="text-decoration: none;">commitsolutions.com.my</a></span></div></div>
+  <div class="credit"><span class="badge"><img src="assets/logo.png" alt=""></span><span><b style="color:#fff">COMMIT SOLUTIONS</b> · commitsolutions.com.my</span></div></div>
   <div class="art"><img src="assets/${s.art}" alt="Illustration: a mother reading a message on her phone"></div></div>`},
  divider(s){return `<div class="hero"><div class="tx" style="padding-top:70px"><p class="eyebrow">${esc(s.eyebrow)}</p><h1>${esc(s.title)}</h1><p class="lead">${esc(s.lead)}</p><div class="btnrow"><button class="btn light" data-act="next">Begin module</button></div></div><div class="art"><img src="assets/${s.art}" alt=""></div></div>`},
  cards(s){const cards=`<div class="grid g${s.cols||2} stagger">${s.cards.map(c=>`<div class="card ${c.tone||''}"><div class="ic"><span class="ico">${ic(c.i)}</span>${esc(c.t)}</div><p>${esc(c.d)}</p></div>`).join('')}</div>`;
